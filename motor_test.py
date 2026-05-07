@@ -4,7 +4,7 @@ import time
 # Initialize motor pins
 motor1 = Pin(18, Pin.OUT)
 pwm = PWM(Pin(18))
-pwm.freq(1000)
+pwm.freq(100)
 # Function to set motor speed and direction
 def set_motor(speed):
     if speed > 0:
