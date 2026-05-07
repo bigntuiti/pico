@@ -7,7 +7,7 @@ pin = Pin("LED", Pin.OUT)
 
 SSID = "toko"
 
-PASSWORD = "gaybart12"
+PASSWORD = "neuro123"
 
 # Connect to Wi-Fi
 
@@ -71,6 +71,7 @@ try:
                 
                 if data_decoded == "RIGHT":
                     print("I AM GOING RIGHT!")
+                    
                 elif data_decoded == "LEFT":
                     print("I AM GOING LEFT!")
                 elif data_decoded == "FORWARD":
